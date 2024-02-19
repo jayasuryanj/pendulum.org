@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background-color: oldlace;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid;
+    border-bottom-color: #05ffb0;
+}
+
+
+p { 
+    
+    font:'Roboto', sans-serif ;
+    text-align: center;
+    font-size: 18px;
+}
+
+.para {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #dddddd;
+    overflow: hidden;
+    text-align: center; /* Center the text */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 10px; /* Add spacing between items */
+}
+
+nav li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}

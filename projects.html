@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/prostyle.css') }}">
+    <title>Projects</title>
+</head>
+
+<body>
+
+    <h1>VISION</h1>
+    <p><b>Empowering Futures, Transforming Lives</b></p>
+    <h1>MISSION</h1>
+    <p><b>Our mission is to break the cycle of poverty through education, providing underprivileged children with the tools and opportunities they need to build a brighter future.<br> We are committed to creating a world where every child, regardless of their socio-economic background, has access to quality education and the support necessary to unleash their full potential.</b></p>
+    <h1>Core Values:</h1>
+    <ul class="para">
+        <li>Inclusivity: We believe in inclusive education that reaches every child, irrespective of their economic status, gender, or background.</li>
+        <li>Quality Education: We are dedicated to delivering education of the highest quality, empowering children with the knowledge and skills necessary to overcome challenges and succeed in life.</li>
+
+<li>Community Engagement: We actively engage with communities to understand their unique needs and work collaboratively to create sustainable solutions that address the educational barriers faced by children.</li>
+
+<li>Empowerment: Our aim is to empower children to become active learners, critical thinkers, and responsible citizens, fostering a sense of self-worth and confidence.</li>
+
+<li>Partnerships: We build strong partnerships with local communities, schools, governments, and other organizations to maximize our impact and create a network of support for the children we serve.</li>
+
+
+<li>Parental Involvement: Encourage parental involvement through workshops and community events, emphasizing the importance of education in breaking the cycle of poverty.</li>
+
+
+        <!-- ... (other list items) ... -->
+    </ul>
+<model style="width: 400px; height: 300px">
+  <source src="assets/example.usdz" type="model/vnd.usdz+zip">
+  <source src="assets/example.glb" type="model/gltf-binary">
+</model>
+
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About Me</a></li>
+             <li><a href="{{ url_for('resourse') }}">Resourses</a></li>
+
+        </ul>
+    </nav>
+
+</body>
+
+</html>

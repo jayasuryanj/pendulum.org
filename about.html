@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+
+
+
+
+<style>
+    
+  @import url('https://fonts.googleapis.com/css2?family=Roboto Flex:wght@100&display=swap');
+
+
+        /* Optional CSS for styling */
+        img {
+            width: 300px; /* Set the desired width */
+            height: auto; /* Maintain the aspect ratio */
+            border: 1px solid #ddd; /* Add a border for illustration */
+            border-radius: 8px; /* Add border-radius for rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+            display: block; /* Make the image a block-level element */
+            margin: 0 auto; /* Set left and right margins to 'auto' to center horizontally */
+        
+        }
+
+        h1{
+            text-align: center;
+        }
+
+iframe {
+
+display: block; /* Make the image a block-level element */
+            margin: 0 auto; /* Set left and right margins to 'auto' to center horizontally */
+        border-radius: 2px solid black;
+}
+
+
+p {
+    letter-spacing: 2px;
+    font-size: 20px;
+font-family: 'Roboto Flex', sans-serif;
+}
+
+ .container {
+            width: 600px; /* Set the width of the container */
+            padding: 20px; /* Add some padding for content spacing */
+            border: 5px solid black; /* Set a border color */
+            border-radius: 15px; /* Add border-radius for curved edges */
+            margin: 50px auto; /* Center the container horizontally with some top margin */
+        }
+
+
+
+
+
+
+
+        .frame {
+  width: 300px;
+  max-width: 300px; /* Set a maximum width for responsiveness */
+  margin: 20px auto; /* Center the iframe */
+}
+
+
+
+iframe {
+  width: 100%;
+  height: 250px;
+  border: 2px solid #ccc; /* Set border color */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+
+footer {
+  background-image: radial-gradient(circle closest-side, green 0%, purple 20%, orange 100%);;
+  background-size: cover;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+    font:'Roboto Flex', sans-serif;
+
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ang{
+text-align: center;
+    font-size: 20px;
+    font:'Roboto Flex', sans-serif;
+
+
+}
+
+.mem{
+
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+
+}
+
+.menu{
+    text-decoration: underline;
+        
+
+    color: #333333;
+}
+.mes{
+    color: #0066cc;
+        
+}
+
+    </style>
+
+
+
+
+
+</head>
+<body style="background-color: oldlace;">
+    <img src="{{ url_for('serve_image', filename='jayasuryan.jpeg') }}" alt="Jayasuryan Image">
+    <h1>ABOUT ME</h1>
+    <div class="container"><p><b>
+
+Hello! My name is Jayasuryan, and I am an Engineer , Student deeply inspired by the legacies of great individuals like Abdul Kalam and Florence Nightingale. My journey as a student has fueled my passion for education, mentorship, and making a positive impact on the lives of others.
+
+As an aspiring engineer, I am dedicated to not only excelling in my academic pursuits but also to giving back to the community. I draw inspiration from the visionary leadership of Abdul Kalam, finding motivation in his commitment to education and his vision for a developed and empowered society. Similarly, Florence Nightingale's dedication to healthcare and humanitarian efforts resonates with my desire to contribute meaningfully to the well-being of others.
+
+My overarching goal is to assist fellow students in their educational journeys. I aspire to provide mentorship, offering guidance to navigate the complexities of academia and helping them discover their unique paths. Beyond intellectual support, I am committed to aiding students financially, recognizing the challenges that many face in pursuing education.
+
+In my role as a mentor, I aim to instill values of perseverance, curiosity, and compassion. I believe that by empowering students with the right knowledge and resources, we can collectively contribute to building a brighter future. My journey is not just about personal success; it is about uplifting others and fostering a community where everyone has the opportunity to thrive intellectually and financially.
+
+I am excited about the prospect of making a positive impact through mentorship and education, and I look forward to the challenges and rewards that this journey will undoubtedly bring. Together, let's create a supportive and inclusive environment that nurtures the potential of every student.
+
+---</b>
+</p></div>
+ <section class="mem">
+        <h1 class="menu">Organisation Members</h1>
+        <h2 class="mes">Ganesh Sreedhar</h2>
+
+        <h2 class="mes">Rahul Raj</h2>
+         <h2 class="mes">Athira S</h2>
+          <h2 class="mes">Jayasuryan</h2>
+    </section>
+<section>
+    <h2>Contact Me</h2>
+    <p><strong>Feel free to reach out to me :</strong></p>
+        <p>Phone: <a href="tel:+91 9995131085">+91 9995131085</a></p>
+        <p>Gmail :<a href="mailto:jayasuryan9351@gmail.com">MailTo</a>
+</p>
+
+    <!-- WhatsApp -->
+    <p>WhatsApp: <a href="https://wa.me/9995131085" target="_blank">Click to chat</a></p>
+    <p>Telegram : <a href="https://t.me/JsuryanJ" target="_blank"> Click Here</a> </p>
+</section>
+
+<div>
+    <h2>Check out my YouTube video:</h2>
+    <!-- Replace "your_video_id" with the actual YouTube video ID -->
+    <iframe width="200" height="200" src="https://youtube.com/shorts/d2gbtbEbmEk?si=CxTj6OLWWSiiQH9s" frameborder="2px"></iframe>
+  </div>
+
+<div class="frame"><p style="box-sizing: content-box;"><b>My Location</b></p> <iframe
+    width="300"
+    height="250"
+    frameborder="2px"
+    style="border:2px"
+    src="https://www.google.com/maps/d/embed?mid=16Z3sVr49KyKpik2Jpat4V8wUW64&hl=en_US&ehbc=2E312F" 
+    allowfullscreen
+  ></iframe></div>
+  <div class="ang">
+    <a href="{{ url_for('home') }}"><b>Home</b></a>
+    <a href="{{ url_for('projects') }}"><b>Projects</b></a>
+    <a href="{{ url_for('resourse') }}"><b>Resourses</b></a>
+</div>
+     <footer>
+    <div class="footer-content">
+      <p><b>&copy; 2023 Your Website Name</b></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- Make sure the URL for your styles is generated correctly -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100&family=Josefin+Sans:ital,wght@0,100;0,300;1,200&family=Lexend:wght@100;400&family=Play&family=Roboto+Flex:opsz,wght@8..144,500;8..144,600&display=swap" rel="stylesheet">
+ 
+<link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100&family=Josefin+Sans:ital,wght@0,100;0,300;1,200&family=Lexend:wght@100;400&family=Play:wght@400&family=Roboto+Flex:opsz,wght@8..144,500;8..144,600&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100&family=Josefin+Sans:ital,wght@0,100;0,300;1,200&family=Lexend:wght@100;400&family=Play&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="menu-icon" onclick="toggleNavbar()">
+      
+    </div>
+
+    <div class="container">
+      <h1>PENDULUM OrG</h1>
+
+     <nav id="navList">
+        
+        <a href="{{ url_for('about') }}"><b>About US</b></a>
+        <a href="{{ url_for('projects') }}"><b>Projects</b></a>
+        <a href="{{ url_for('resourse') }}"><b>Resourse</b></a>
+      </nav>
+    </div>
+  </div>
+
+  
+  
+
+  <h1 class="h1"><b>JAYASURYAN </b></h1>
+
+  
+  <div>
+    <h3><b>You don’t need to be fit.. To run<br>
+
+You don’t need to be rich.. To invest<br>
+
+You don’t need a degree.. To write<br>
+
+You don’t need to be a genius.. To create<br>
+
+What you need to do is.. Do Something!<br>
+
+</b></h3>
+
+  </div>
+  <section style="margin-bottom: 20px;">
+  <div class="cont"><h2><b><strong>Our Leading Inspiration: Dr. APJ Abdul Kalam - Guiding the Way to Excellence</strong></b></h2>
+   <img src="{{ url_for('serve_image', filename='img1.jpeg') }}" alt="Jayasuryan Image" style="border-radius: 50%; height:150px; width:150px; border: 5px solid #ffffff; display: block;margin: 0 auto ;" >
+  </div></section>
+<section style="margin-bottom: 20px;">
+  <div class="contain">
+    <div class="box">
+        <p>Help US</p>
+    </div>
+    <div class="box">
+        <p>Our Mission</p>
+    </div>
+    <div class="box">
+        <p>Contact Us</p>
+    </div>
+</div>
+</section>
+
+<section style="margin-bottom: 30px;">
+<div class="custom-box">
+    <h2 class="custom-heading">PENDULUM ORG</h2>
+   <p></p>
+  </div>
+<section>
+<section>
+  <div><p class="card">"You Educate a man; you educate a Man. You educate a women ; you educate a Generation. "
+    <b><br>~Brigham Young</b></p></div>
+</section>
+
+
+
+</body>
+</html>

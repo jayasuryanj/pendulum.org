@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+   
+</head>
+<style type="text/css">
+
+  @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Mate+SC&display=swap');
+body{
+     background: linear-gradient(to right, #3498db, #e74c3c);
+}
+
+    h1 {
+        font-family:'Mate SC' ;
+        text-align: center;
+        font-size: 30px;
+         text-decoration: underline;
+         color: #fff;
+    }
+p {
+    font-family: 'Inconsolata';
+font-size: 16px;
+    text-align: center;
+    font-family: ;
+    color: #fff;
+}
+h2{
+    font-size: 25px;
+font-family: 'Mate SC';
+text-align: center;
+ text-decoration: underline;
+ color: #fff;
+}
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  font-family:'Roboto',sans-serif ;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navList {
+  display: flex;
+  gap: 20px;
+}
+
+#navList a {
+    font: 'Roboto',sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+#navList a:hover {
+  color: #ffcc00; /* Change color on hover */
+}
+</style>
+<body>
+    <div class="navbar">
+    <div class="menu-icon" onclick="toggleNavbar()">
+      
+    </div>
+
+    <div class="container">
+      <h1>PENDULUM OrG</h1>
+
+     <nav id="navList">
+        
+        <a href="{{ url_for('about') }}"><b>About Me</b></a>
+        <a href="{{ url_for('projects') }}"><b>Projects</b></a>
+        <a href="{{ url_for('resourse') }}"><b>Resourse</b></a>
+      </nav>
+    </div>
+  </div>
+
+<h1>Donate us</h1>
+<h2> Empower Minds through Education: Donate Books and Study Materials</h2>
+
+
+<p>Greetings! We hope this message finds you in good health and high spirits. We are reaching out to you with a heartfelt request for support in our mission to empower minds through education.</p>
+
+<h2>Our Cause:</h2>
+<p>At [Your Organization/Initiative Name], we believe that education is the key to unlocking potential and transforming lives. Unfortunately, not everyone has access to the necessary resources to pursue learning opportunities. We are committed to bridging this gap and providing educational materials to those in need.</p>
+
+<h2>Why Donate:</h2>
+<p>Your generous donation of books and study materials can make a significant impact on the lives of countless individuals. By contributing to our cause, you are directly supporting the growth of knowledge, fostering a love for learning, and enabling individuals to build a better future for themselves and their communities.</p>
+
+<h2>What We Need:</h2>
+<p>We are currently seeking donations of new or gently used books, study guides, and educational materials. Additionally, if you have soft copies of educational resources or e-books, we would greatly appreciate those as well. Your contribution will go a long way in creating a diverse and comprehensive resource library for learners of all ages.</p>
+
+<h2>How to Donate:</h2>
+<p>If you would like to contribute to our cause, please [provide details on how donors can contact you or drop off donations]. We accept both physical and digital donations, making it convenient for you to support our mission in the way that suits you best.</p>
+
+<h2>Impact of Your Donation:</h2>
+<p>Every book and study material donated will directly contribute to the educational journey of someone in need. Whether it's a child discovering the joy of reading or a student preparing for exams, your support will leave a lasting impression on their lives.
+
+We want to express our deepest gratitude for considering our cause. Your generosity will not only provide resources but also inspire a love for learning that can last a lifetime.
+
+Together, let's empower minds and create a brighter future through education.</p>
+
+</body>
+</html>

@@ -1,0 +1,223 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: radial-gradient(circle at 46% 40%, rgba(228, 228, 228,0.06) 0%, rgba(228, 228, 228,0.06) 13%,transparent 13%, transparent 100%),radial-gradient(circle at 11% 41%, rgba(198, 198, 198,0.06) 0%, rgba(198, 198, 198,0.06) 19%,transparent 19%, transparent 100%),radial-gradient(circle at 52% 23%, rgba(14, 14, 14,0.06) 0%, rgba(14, 14, 14,0.06) 69%,transparent 69%, transparent 100%),radial-gradient(circle at 13% 85%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 44%,transparent 44%, transparent 100%),radial-gradient(circle at 57% 74%, rgba(232, 232, 232,0.06) 0%, rgba(232, 232, 232,0.06) 21%,transparent 21%, transparent 100%),radial-gradient(circle at 59% 54%, rgba(39, 39, 39,0.06) 0%, rgba(39, 39, 39,0.06) 49%,transparent 49%, transparent 100%),radial-gradient(circle at 98% 38%, rgba(157, 157, 157,0.06) 0%, rgba(157, 157, 157,0.06) 24%,transparent 24%, transparent 100%),radial-gradient(circle at 8% 6%, rgba(60, 60, 60,0.06) 0%, rgba(60, 60, 60,0.06) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(148, 220, 10),rgb(18, 123, 10));
+  font-family: 'Arial', 'Rubik Bubbles' , sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h3{
+
+  font-size: 50px;
+ font:'Bebas Neue';
+ color: white;
+ text-align: right;
+  border: 2px solid black;
+  padding: 10px; 
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+.h1{
+  padding: 50px;
+  font-size: 30px;
+  font:'Nabla' ;
+
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+      animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+      border-right: 2px solid; /* Add a blinking cursor effect */
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: black; }
+    }
+}
+
+#navList {
+  display: flex;
+  gap: 20px;
+}
+
+#navList a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+#navList a:hover {
+  color: #ffcc00; /* Change color on hover */
+}
+
+/* Swiper container styles */
+.swiper-container {
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+  margin-top: 20px;
+}
+
+.centered-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  align-content: center;
+}
+
+/* Menu icon styles */
+.menu-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.bar {
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin: 5px 0;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.menu-icon.open .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-icon.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Show class for the navList on small screens */
+.show {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  background-color: #333;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #navList {
+    display: none;
+  }
+
+  .show {
+    display: flex;
+  }
+}
+nav a:hover {
+  background-color: white;
+  color: black; /* Change the text color on hover if needed */
+}
+
+}
+ 
+ .cont{
+  text-align: center;
+ }
+
+h2{
+  line-height: 1.5;
+  text-decoration: underline;
+text-align: center;
+font-family: font-family: 'Play', sans-serif;;
+  font-size: 15px;
+  color: black;
+  font:'Styles' ;
+}
+
+ .contain {
+            display: flex;
+            justify-content: space-between; /* Adjust as needed */
+            width: 80%; /* Adjust the width of the container */
+            margin: 0 auto; /* Center the container */
+        }
+
+        /* Style for each box inside the container */
+        .box {
+            width: 30%; /* Adjust the width of each box */
+            padding: 20px;
+            border: 2px solid #ccc;
+            box-sizing: border-box;
+            text-align: center; /* Center the text */
+            color: white;
+            background-image: repeating-linear-gradient(0deg, rgb(6, 6, 6) 0px, rgb(6, 6, 6) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgb(6, 6, 6) 0px, rgb(6, 6, 6) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, hsl(144,0%,9%),hsl(144,0%,9%));
+        }}
+
+
+ .custom-box {
+      width: 300px;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 10px; /* Adjust the value for the desired border radius */
+      text-align: center;
+    }
+
+    .custom-heading {
+      font-family: 'Rubik Bubbles' , sans-serif;
+      font-weight: bold;
+      font-size: 60px;
+      border: 10px solid white;
+      background-color: white;
+      color: black;
+    }
+
+
+    .card{
+      font-size: 18px;
+      text-align: center;
+      font: 'Lilita One';
+      background-color: black;
+      
+      color: white;
+      padding: 20px;
+      border: 1px solid white;
+      border-radius: 5px;
+    }
